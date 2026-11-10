@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr-CH">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf5ff">
+
+  <title>Benaz Pressing Genève | Nettoyage et repassage</title>
+  <meta name="description" content="Benaz Pressing à Genève : nettoyage, repassage et entretien du linge. Livraison gratuite dès CHF 30.–.">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="topbar">
+    Livraison gratuite <strong>dès CHF 30.–</strong>
+  </div>
+
+  <header>
+    <div class="container navbar">
+      <a class="brand" href="#accueil">
+        <img src="logo.jpg" alt="Pressing Benaz" class="brand-logo">
+        <span>
+          <span class="brand-name">Benaz Pressing</span>
+          <span class="brand-subtitle">Genève · Nettoyage & repassage</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Ouvrir le menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav id="mainNav">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Nos services</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#horaires">Horaires</a>
+        <a href="#contact" class="nav-cta">Nous contacter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Votre pressing à Genève
+          </div>
+
+          <h1>Le soin du linge,<br>
+            <span>en toute simplicité.</span>
+          </h1>
+
+          <p class="hero-text">
+            Benaz Pressing prend soin de vos vêtements et de votre linge
+            avec attention. Découvrez nos prestations de nettoyage,
+            de repassage et d'entretien du linge à Genève.
+          </p>
+
+          <div class="button-row">
+            <a class="btn btn-primary" href="#tarifs">Découvrir nos tarifs →</a>
+            <a class="btn btn-outline" href="#contact">Nous contacter</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-label">Un service pratique</div>
+          <h2>Votre linge, notre attention.</h2>
+
+          <div class="delivery-amount">
+            <strong>CHF 30.–</strong>
+            <span>Livraison gratuite dès ce montant</span>
+          </div>
+
+          <ul class="benefit-list">
+            <li><span class="check">✓</span> Nettoyage à sec et entretien du linge</li>
+            <li><span class="check">✓</span> Repassage et linge de maison</li>
+            <li><span class="check">✓</span> Contact par téléphone ou WhatsApp</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="promotion-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">Nos offres</span>
+          <h2>Découvrez nos tarifs et nos offres</h2>
+          <p>Benaz Pressing prend soin de vos vêtements.</p>
+        </div>
+
+      <div class="promotion-image">
+        <img
+          src="kampanya.jpg"
+          alt="Offres et tarifs Benaz Pressing Genève"
+        >
+      </div>
+    </div>
+  </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">Nos prestations</span>
+          <h2>Des soins adaptés à votre linge</h2>
+          <p>Découvrez nos services pour vos vêtements, vos chaussures et votre linge de maison.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">✧</div>
+            <h3>Nettoyage à sec</h3>
+            <p>Un entretien adapté aux vêtements qui nécessitent un soin particulier.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">♧</div>
+            <h3>Repassage et linge</h3>
+            <p>Vêtements, linge de maison et prestations de lavage au kilo.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">◇</div>
+            <h3>Sneakers et accessoires</h3>
+            <p>Découvrez nos tarifs pour les sneakers, les cravates et les écharpes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="prices-section" id="tarifs">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">Prix et prestations</span>
+          <h2>Nos tarifs</h2>
+          <p>Recherchez un article dans notre liste de prix. Tous les montants sont indiqués en francs suisses (CHF).</p>
+        </div>
+
+        <div class="price-panel">
+          <div class="price-toolbar">
+            <h3>Liste des prix</h3>
+            <input type="search" id="priceSearch"
+              placeholder="Rechercher un article..."
+              aria-label="Rechercher un article">
+          </div>
+
+          <div class="price-category">Polo / T-shirt</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="chemise polo"><span>Chemise</span><strong>CHF 5.–</strong></li>
+            <li class="price-item" data-search="t-shirt coton"><span>T-shirt coton</span><strong>CHF 5.–</strong></li>
+            <li class="price-item" data-search="pull laine"><span>Pull laine</span><strong>CHF 7.–</strong></li>
+            <li class="price-item" data-search="pull cachemire soie délicat"><span>Pull cachemire / soie / délicat</span><strong>CHF 15.–</strong></li>
+          </ul>
+
+          <div class="price-category">Manteau / doudoune</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="manteau doudoune court"><span>Manteau / doudoune court</span><strong>CHF 30.–</strong></li>
+            <li class="price-item" data-search="manteau doudoune long"><span>Manteau / doudoune long</span><strong>CHF 35.–</strong></li>
+          </ul>
+
+          <div class="price-category">Manteau / doudoune en plume</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="plume délicat soie cachemire"><span>Délicat / soie / cachemire</span><strong>CHF 35.–</strong></li>
+          </ul>
+
+          <div class="price-category">Jeans / pantalon</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="jeans"><span>Jeans</span><strong>CHF 8.–</strong></li>
+            <li class="price-item" data-search="pantalon"><span>Pantalon</span><strong>CHF 10.–</strong></li>
+          </ul>
+
+          <div class="price-category">Jupe / robe</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="jupe simple"><span>Jupe simple</span><strong>CHF 10.–</strong></li>
+            <li class="price-item" data-search="jupe plissée longue soie"><span>Jupe plissée / longue / soie</span><strong>CHF 20.–</strong></li>
+            <li class="price-item" data-search="robe courte simple"><span>Robe courte simple</span><strong>CHF 14.–</strong></li>
+            <li class="price-item" data-search="robe plissée longue soie"><span>Robe plissée / longue / soie</span><strong>CHF 23.–</strong></li>
+          </ul>
+
+          <div class="price-category">Linge de maison</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="nappe simple 6 8 couverts"><span>Nappe simple – 6/8 couverts</span><strong>CHF 14.90</strong></li>
+            <li class="price-item" data-search="nappe simple 10 12 couverts"><span>Nappe simple – 10/12 couverts</span><strong>CHF 18.90</strong></li>
+            <li class="price-item" data-search="nappe plus de 12 couverts"><span>Nappe – plus de 12 couverts</span><strong>CHF 22.90</strong></li>
+            <li class="price-item" data-search="nappe brodée 6 8 couverts"><span>Nappe brodée – 6/8 couverts</span><strong>CHF 19.90</strong></li>
+            <li class="price-item" data-search="nappe brodée 10 12 couverts"><span>Nappe brodée – 10/12 couverts</span><strong>CHF 23.90</strong></li>
+            <li class="price-item" data-search="nappe brodée plus de 12 couverts"><span>Nappe brodée – plus de 12 couverts</span><strong>CHF 31.90</strong></li>
+            <li class="price-item" data-search="linge de cuisine"><span>Linge de cuisine</span><strong>CHF 2.50</strong></li>
+            <li class="price-item" data-search="serviettes de table"><span>Serviettes de table</span><strong>CHF 2.50</strong></li>
+          </ul>
+
+          <div class="price-category">Literie</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="draps housses"><span>Draps-housses</span><strong>CHF 10.–</strong></li>
+            <li class="price-item" data-search="oreillers synthétiques"><span>Oreillers synthétiques</span><strong>CHF 7.–</strong></li>
+            <li class="price-item" data-search="oreillers plume"><span>Oreillers en plume</span><strong>CHF 15.–</strong></li>
+            <li class="price-item" data-search="duvet plume 160"><span>Duvet en plume dès 160 cm</span><strong>CHF 30.–</strong></li>
+            <li class="price-item" data-search="duvet plume 180"><span>Duvet en plume dès 180 cm</span><strong>CHF 45.–</strong></li>
+            <li class="price-item" data-search="duvet synthétique 160"><span>Duvet synthétique dès 160 cm</span><strong>CHF 25.–</strong></li>
+            <li class="price-item" data-search="duvet synthétique 180"><span>Duvet synthétique dès 180 cm</span><strong>CHF 35.–</strong></li>
+            <li class="price-item" data-search="draps"><span>Draps</span><strong>CHF 10.–</strong></li>
+            <li class="price-item" data-search="housse de duvet"><span>Housse de duvet</span><strong>CHF 14.–</strong></li>
+            <li class="price-item" data-search="alèse molleton"><span>Alèse / molleton</span><strong>CHF 10.–</strong></li>
+          </ul>
+
+          <div class="price-category">Sneakers</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="sneakers normal"><span>Sneakers normales</span><strong>CHF 50.–</strong></li>
+            <li class="price-item" data-search="sneakers luxury luxe"><span>Sneakers luxe</span><strong>CHF 70.–</strong></li>
+          </ul>
+
+          <div class="price-category">Tâches / service</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="tâches particulières"><span>Tâches particulières</span><strong>CHF 5.–</strong></li>
+            <li class="price-item" data-search="service express"><span>Service express</span><strong>CHF 5.–</strong></li>
+          </ul>
+
+          <div class="price-category">Linge au kilo</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="linge lavé repassé plié kilo"><span>Linge lavé, repassé et plié</span><strong>CHF 10.– / kg</strong></li>
+            <li class="price-item" data-search="linge lavé plié kilo"><span>Linge lavé et plié</span><strong>CHF 6.– / kg</strong></li>
+          </ul>
+
+          <p class="price-note">
+            Pour le linge au kilo, le détachage et la désinfection sont inclus.
+          </p>
+
+          <div class="price-category">Accessoires</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="cravate soie laine"><span>Cravate soie / laine</span><strong>CHF 12.–</strong></li>
+            <li class="price-item" data-search="écharpe délicate foulard soie"><span>Écharpe délicate / foulard en soie</span><strong>CHF 17.–</strong></li>
+            <li class="price-item" data-search="écharpe cravate synthétique"><span>Écharpe / cravate synthétique</span><strong>CHF 7.–</strong></li>
+            <li class="price-item" data-search="écharpe cachemire pashmina"><span>Écharpe cachemire / pashmina</span><strong>CHF 13.–</strong></li>
+          </ul>
+
+          <div class="price-category">Costume / veste</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="costume tailleur"><span>Costume / tailleur</span><strong>CHF 25.–</strong></li>
+            <li class="price-item" data-search="veste blazer"><span>Veste / blazer</span><strong>CHF 14.–</strong></li>
+          </ul>
+
+          <div class="price-category">Prestations sur devis</div>
+          <ul class="price-list">
+            <li class="price-item" data-search="imperméabilisation anti mites"><span>Imperméabilisation / traitement anti-mites</span><strong>Sur devis</strong></li>
+            <li class="price-item" data-search="tapis cuir daim rideaux"><span>Tapis, cuir, daim et rideaux</span><strong>Sur devis</strong></li>
+            <li class="price-item" data-search="robe soirée mariée"><span>Robe de soirée / robe de mariée</span><strong>Sur devis</strong></li>
+          </ul>
+
+          <p id="emptyMessage" class="empty-message" hidden>
+            Aucun article ne correspond à votre recherche.
+          </p>
+
+          <p class="price-note">
+            Tous les tarifs sont indiqués en francs suisses (CHF).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="horaires">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">Informations pratiques</span>
+          <h2>Nous sommes à votre service</h2>
+          <p>Retrouvez nos horaires et nos coordonnées.</p>
+        </div>
+
+        <div class="info-grid">
+          <article class="info-card">
+            <h3>Horaires d'ouverture</h3>
+            <div class="hours-row"><span>Lundi</span><strong>08h00 – 18h30</strong></div>
+            <div class="hours-row"><span>Mardi</span><strong>08h00 – 18h30</strong></div>
+            <div class="hours-row"><span>Mercredi</span><strong>08h00 – 18h30</strong></div>
+            <div class="hours-row"><span>Jeudi</span><strong>08h00 – 18h30</strong></div>
+            <div class="hours-row"><span>Vendredi</span><strong>08h00 – 18h30</strong></div>
+            <div class="hours-row"><span>Samedi</span><strong>08h00 – 18h30</strong></div>
+            <div class="hours-row"><span>Dimanche</span><strong class="closed">Fermé</strong></div>
+          </article>
+
+          <article class="info-card" id="contact">
+            <h3>Contactez-nous</h3>
+
+            <div class="contact-item">
+              <span class="contact-icon">☎</span>
+              <div>
+                <small>Téléphone du magasin</small>
+                <a href="tel:+41223206231">022 320 62 31</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">✆</span>
+              <div>
+                <small>WhatsApp</small>
+                <a href="https://wa.me/41783329833" target="_blank" rel="noopener noreferrer">078 332 98 33</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <small>E-mail</small>
+                <a href="mailto:benazpressing@gmail.com">benazpressing@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">⌖</span>
+              <div>
+                <small>Adresse</small>
+                <strong>Rue de Carouge 65, 1205 Genève</strong>
+              </div>
+            </div>
+
+            <a class="btn btn-primary map-button"
+              href="https://maps.app.goo.gl/B9nUausvw4NFRT7f7?g_st=aw"
+              target="_blank" rel="noopener noreferrer">
+              Voir sur Google Maps →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-box">
+        <h2>Une question ? Contactez-nous.</h2>
+        <p>Benaz Pressing est à votre disposition pendant les heures d'ouverture.</p>
+        <a class="btn btn-primary" href="tel:+41223206231">Appeler le magasin</a>
+        <a class="btn btn-outline"
+          href="https://wa.me/41783329833"
+          target="_blank" rel="noopener noreferrer">Écrire sur WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <strong>Benaz Pressing · Genève</strong>
+      <span>© <span id="year"></span> Benaz Pressing. Tous droits réservés.</span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float"
+    href="https://wa.me/41783329833"
+    target="_blank" rel="noopener noreferrer"
+    aria-label="Contacter Benaz Pressing sur WhatsApp">
+    WhatsApp
+  </a>
+</body>
+</html>
